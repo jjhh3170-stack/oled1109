@@ -1,0 +1,50 @@
+안녕하세요.
+OLED 실험 조교 윤수현입니다.
+
+실험 및 보고서 작성에 필요한 4CzIPN 측정 데이터를 정리하여 공유드립니다.
+
+
+1. RTPL 및 LTPL 측정 데이터 - (01번 파일)
+
+RTPL: Singlet Energy Level (S1) 계산
+LTPL: Triplet Energy Level (T1) 계산
+
+LTPL 측정 원리는 다음 주 실험 수업 초반부에 설명드릴 예정입니다. 
+T1 계산 방법은 S1과 동일하므로 보고서 작성에는 큰 어려움이 없을 것으로 생각됩니다.
+
+
+2. TRPL 측정 데이터 - (02~04번 파일)
+
+02: Prompt Fluorescence (PF), 500 ns
+03: Delayed Fluorescence (DF), 5 us, N2 bubbling 미진행
+04: Delayed Fluorescence (DF), 20 us, N2 bubbling 진행
+
+TRPL 그래프 작성 시 해당 데이터를 사용하시면 됩니다.
+그리고, 각 폴더 속에 DAT 파일과 IRF 파일이 있을텐데 아래 참고하셔서 그래프 그려내시면 될 것 같습니다.
+
+DAT 파일: 재료의 시간에 따른 발광 특성 측정 데이터
+IRF 파일: 장비의 Instrument Response Function(IRF) 측정 데이터
+
+
+3. 보고서 작성 시 참고값
+
+TRPL 측정을 통해 fitting한 tau 값들은 다음과 같습니다.
+
+tau_p						14.2687 ns
+tau_d (w/o N2 bubbling)		0.0997285 μs
+tau_d (w/ N2 bubbling)			2.52191 μs
+
+rate constant를 계산하실 때는 tau_p 값과, tau_d (w/ N2 bubbling) 값을 사용하셔서 계산하시면 됩니다.
+추가로 total PLQY는 94% 로 계산하시면 됩니다.
+
+
+4. 참고자료
+
+5번 폴더에는Adachi 연구진의 4CzIPN 관련 논문과 측정 화면을 첨부하였습니다. 
+측정 화면은 Lifetime 값을 전달하기 위한 참고용이므로 별도로 확인하지 않으셔도 괜찮습니다.
+
+
+안내드린 데이터를 참고하여 실험 결과 및 보고서를 작성해 주시면 됩니다. 
+추가로 궁금한 사항이 있다면 편하게 연락해 주세요.
+
+감사합니다.
