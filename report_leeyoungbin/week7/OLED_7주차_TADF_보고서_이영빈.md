@@ -156,14 +156,14 @@ k<sub>RISC</sub>(1.14 × 10<sup>6</sup> s<sup>−1</sup>)가 k<sub>nr</sub><sup>
 
 ![prompt TRPL](figures/fig_trpl_prompt.png)
 
-**Fig. 4 — Delayed 구간 TRPL (N<sub>2</sub> bubbling 전/후)**
+**Fig. 4 — Delayed 구간 TRPL: (a) N<sub>2</sub> bubbling 전 (5 μs 구간), (b) N<sub>2</sub> bubbling 후 (20 μs 구간)**
 
 ![delayed TRPL](figures/fig_trpl_delayed.png)
 
 - **두 가지 감쇠 성분.** Fig. 3에서 발광은 IRF와 함께 즉시 올라간 뒤 τ<sub>p</sub> = 14.27 ns의 단일 지수로 약 50 ns까지 두 자릿수(10<sup>0</sup> → 10<sup>−2</sup>) 감소한다. 그 뒤 곡선이 꺾여 최대값의 약 10<sup>−2</sup> 수준에서 매우 천천히 줄어드는 꼬리가 이어진다. 이 꼬리가 μs 수명의 delayed 성분이다. 같은 파장(507 nm)에서 ns와 μs 두 성분이 함께 관측된다는 것은, 같은 S<sub>1</sub>에서 나오는 형광이 두 경로로 만들어진다는 뜻이다.
 - **Prompt 성분.** 광여기로 직접 생성된 S<sub>1</sub> exciton이 바로 발광(k<sub>r</sub><sup>S</sup>)하거나 ISC로 T<sub>1</sub>이 되며 사라지는 과정이다. 수명은 k<sub>p</sub> = k<sub>r</sub><sup>S</sup> + k<sub>ISC</sub>로 정해진다.
-- **Delayed 성분.** Fig. 4의 N<sub>2</sub> bubbling 데이터에서 delayed 성분은 약 15 μs 동안 세 자릿수 이상 단일 지수(τ<sub>d</sub> = 2.52 μs)로 감소한다. τ<sub>d</sub>가 τ<sub>p</sub>보다 약 180배 길다. T<sub>1</sub>으로 넘어간 exciton이 RISC로 S<sub>1</sub>에 돌아와 발광하는 과정이 반복되므로, 발광 파장은 형광과 같지만 수명은 triplet이 S<sub>1</sub>으로 돌아오는 속도에 의해 결정된다.
-- **산소의 영향.** N<sub>2</sub> bubbling을 하지 않은 시료는 delayed 성분의 수명이 0.10 μs로 약 25배 짧아지고 세기도 빠르게 사라진다. 반면 prompt 성분은 큰 변화가 없다. 산소가 triplet exciton을 선택적으로 소광한다는 뜻이며, 이는 delayed 성분이 triplet을 거쳐 나오는 TADF임을 보여주는 직접적인 증거이다.
+- **Delayed 성분.** Fig. 4(b)의 N<sub>2</sub> bubbling 데이터에서 delayed 성분은 약 15 μs 동안 세 자릿수 이상 단일 지수(τ<sub>d</sub> = 2.52 μs)로 감소한다. τ<sub>d</sub>가 τ<sub>p</sub>보다 약 180배 길다. T<sub>1</sub>으로 넘어간 exciton이 RISC로 S<sub>1</sub>에 돌아와 발광하는 과정이 반복되므로, 발광 파장은 형광과 같지만 수명은 triplet이 S<sub>1</sub>으로 돌아오는 속도에 의해 결정된다.
+- **산소의 영향.** N<sub>2</sub> bubbling을 하지 않은 시료(Fig. 4(a))는 delayed 성분의 수명이 0.10 μs로 약 25배 짧아지고 세기도 빠르게 사라진다. 반면 prompt 성분은 큰 변화가 없다. 산소가 triplet exciton을 선택적으로 소광한다는 뜻이며, 이는 delayed 성분이 triplet을 거쳐 나오는 TADF임을 보여주는 직접적인 증거이다.
 
 정리하면 4CzIPN의 발광은 ns 수명의 prompt 형광과 RISC를 거친 μs 수명의 지연형광으로 이루어지며, 지연형광이 산소에 민감하다는 점에서 TADF 재료임을 확인할 수 있다.
 
